@@ -18,4 +18,6 @@ RUN microdnf remove -y wget unzip tar && microdnf clean all
 
 COPY target/odin-discovery-service /opt/odin-discovery-service/
 COPY entrypoint.sh /opt/odin-discovery-service/entrypoint.sh
+
+
 WORKDIR /opt/odin-discovery-service

@@ -13,7 +13,7 @@ import com.dream11.rest.ClassInjector;
 import io.grpc.ChannelCredentials;
 import io.grpc.ManagedChannel;
 import io.grpc.TlsChannelCredentials;
-import io.grpc.netty.shaded.io.grpc.netty.NettyChannelBuilder;
+import io.grpc.netty.NettyChannelBuilder;
 import io.netty.handler.ssl.util.InsecureTrustManagerFactory;
 import io.reactivex.rxjava3.core.Completable;
 import io.vertx.core.http.HttpServerOptions;

@@ -5,7 +5,7 @@
 
   <groupId>com.dream11</groupId>
   <artifactId>odin-discovery-service</artifactId>
-  <version>1.0.17-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <properties>

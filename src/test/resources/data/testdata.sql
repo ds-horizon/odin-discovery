@@ -27,4 +27,3 @@ VALUES (4, 4, '138.23.12.13');
 
 INSERT INTO record_destination(id, record_id, destination)
 VALUES (5, 4, '138.23.12.14');
-

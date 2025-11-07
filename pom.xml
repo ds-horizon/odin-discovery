@@ -41,7 +41,7 @@
     <maven.compile.source>17</maven.compile.source>
     <maven.compile.target>17</maven.compile.target>
     <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
-    <maven.clean.plugin.vesion>3.1.0</maven.clean.plugin.vesion>
+    <maven.clean.plugin.version>3.1.0</maven.clean.plugin.version>
     <maven.source.plugin.version>3.2.1</maven.source.plugin.version>
     <maven.release.plugin.version>3.0.0-M1</maven.release.plugin.version>
     <maven.lombok.plugin.version>1.18.20.0</maven.lombok.plugin.version>
@@ -468,7 +468,7 @@
 
       <plugin>
         <artifactId>maven-clean-plugin</artifactId>
-        <version>${maven.clean.plugin.vesion}</version>
+        <version>${maven.clean.plugin.version}</version>
         <configuration>
           <filesets>
             <fileset>

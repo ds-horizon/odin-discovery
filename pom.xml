@@ -439,7 +439,7 @@
                     implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
               </transformers>
               <outputFile>
-                ${project.basedir}/${app.release.artifact}/${project.artifactId}-${project.version}-fat.jar
+                ${project.basedir}/${app.release.artifact}/${project.artifactId}-fat.jar
               </outputFile>
             </configuration>
           </execution>

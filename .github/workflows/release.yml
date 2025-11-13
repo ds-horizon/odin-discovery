@@ -99,7 +99,7 @@ jobs:
         uses: softprops/action-gh-release@6cbd405e2c4e67a21c47fa9e383d020e4e28b836 #v2.3.3
         with:
           token: ${{ secrets.GH_BOT_TOKEN }}
-          files: ./target/odin-discovery-service/${{ env.ARTIFACT_NAME }}-${{ steps.get_version.outputs.VERSION }}-fat.jar
+          files: ./target/odin-discovery-service/${{ env.ARTIFACT_NAME }}-fat.jar
           fail_on_unmatched_files: true
           overwrite_files: false
 

@@ -69,7 +69,7 @@ A high-performance, reactive service discovery management service built with Ver
 
 5. **Run the service**
    ```bash
-   java -jar target/odin-discovery-service/odin-discovery-service-0.0.1-SNAPSHOT-fat.jar
+   java -jar target/odin-discovery-service/odin-discovery-service-fat.jar
    ```
 
    Or use Maven:

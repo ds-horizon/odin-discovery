@@ -51,7 +51,7 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 
 ### Commit Signing
 
-* Ensure that your commits are `GPG-` or `SSH-signed`
+* Ensure that your commits are `GPG` or `SSH-signed`
 * Unsigned commits may be rejected during review
 
 ## Documentation
